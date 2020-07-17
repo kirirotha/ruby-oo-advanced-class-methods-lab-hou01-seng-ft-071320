@@ -41,6 +41,7 @@ class Song
     if song_in = false
       song_in = Song.create_by_name(name)
     end
+    song_in
   end
 
 end
