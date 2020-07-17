@@ -17,10 +17,9 @@ class Song
     song
   end
 
-  def self.find_by_name
-    @@all.find do |current_song|
-      current_song.name == self.name
-    end
+  def self.new_by_name(name)
+    song.name = name
   end
+
 
 end
