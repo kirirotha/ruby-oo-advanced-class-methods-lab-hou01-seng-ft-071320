@@ -44,4 +44,8 @@ class Song
     song_in
   end
 
+  def self.alphabetical
+
+  end
+
 end
