@@ -51,8 +51,10 @@ class Song
 
   end
 
-  def self.new_from_filename
-
+  def self.new_from_filename(filename)
+    #parsed_filename = []
+    #parsed_filename = filename.split( - )
+    binding.pry
   end
 
 end
