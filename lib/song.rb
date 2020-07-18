@@ -56,7 +56,7 @@ class Song
     #binding.pry
     song = Song.new
     song.name = parsed_filename[0]
-    song.artist_name = parsed_filename[1]
+    song.artist_name = parsed_filename[1].chop.chop.chop.chop
     song
   end
 
